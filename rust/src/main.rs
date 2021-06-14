@@ -1,6 +1,9 @@
-fn main() {
-    struct A(u32,char);
-    let c0=A(0,'5');
-    println!("{}",c0.1);
-}
+use lc374::Solution;
 
+mod lc374;
+fn main() {
+    unsafe {
+        print!("{}",Solution::guessNumber(1000));
+
+    }
+}

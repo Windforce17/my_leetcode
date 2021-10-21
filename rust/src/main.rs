@@ -1,9 +1,7 @@
-use lc374::Solution;
+use lc229::Solution;
 
-mod lc374;
+mod lc229;
 fn main() {
-    unsafe {
-        print!("{}",Solution::guessNumber(1000));
+    print!("{:?}",Solution::majority_element(vec![1,2,3,4]));
 
-    }
 }

@@ -9,3 +9,4 @@ fn main() {
     println!("{:?}",lc1744::Solution::can_eat(a, b));
 }
 
+}
